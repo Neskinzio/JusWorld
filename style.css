@@ -225,3 +225,55 @@ nav ul li:last-child {
   font-family: Georgia, serif;
   color: #e27eda;
 }
+.formal {
+  position: absolute;
+  top: 105%;
+  left: 77%;
+}
+.formal img {
+  height: 250px;
+  border: 1px solid #ca209d;
+  border-radius: 2px;
+}
+.formaltext {
+  position: absolute;
+  top: 113%;
+  right: 27%;
+  margin-left: 400px;
+  font-family: Georgia, serif;
+  color: #e27eda;
+}
+.formal::before {
+  content: "";
+  position: absolute;
+  border-left: 2px solid #ca209d;
+  top: 20%;
+  right: 115%;
+  height: 150px;
+}
+.natural {
+  position: absolute;
+  top: 160%;
+  left: 5%;
+}
+.natural::after {
+  content: "";
+  position: absolute;
+  border-right: 2px solid #ca209d;
+  top: 20%;
+  height: 150px;
+  margin-left: 40px;
+}
+.natural img {
+  height: 250px;
+  border: 1px solid #ca209d;
+  border-radius: 2px;
+}
+.naturaltext {
+  position: absolute;
+  top: 171%;
+  right: 25%;
+  margin-left: 400px;
+  font-family: Georgia, serif;
+  color: #e27eda;
+}

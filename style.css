@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("http://fonts.googleapis.com/css?family=Great+Vibes");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Georgia, serif;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  background-color: #282c2d;
+}
+header {
+  width: 100%;
+}
+/* top logos  */
+.logos {
+  padding-top: 1rem;
+}
+.logos ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ca209d;
+  font-size: 40px;
+  color: #1b1b1b;
+  box-shadow: 0px 2px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+nav ul li a {
+  color: #1b1b1b;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: 0.4s;
+}
+nav ul li a:hover {
+  color: #db85c0;
+}
+nav ul li:last-child {
+  margin-right: 20px;
+}
+/* panoramic images */
+.panoramic {
+  width: 70%;
+  height: 141px;
+  position: absolute;
+  top: 5.3rem;
+  right: 15%;
+  border: 1px solid #ca209d;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* main links */
+.images li {
+  display: block;
+  cursor: pointer;
+}
+.images li img {
+  width: 20%;
+  height: 350px;
+  float: right;
+  transform: translate(-20%, 30%);
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px rgba(27, 26, 26, 1);
+  transition: 0.2s;
+}
+.images li img:hover {
+  filter: blur(2.5px);
+  box-shadow: 0px 0px 0px 5px rgba(206, 56, 161, 0.75);
+}
+.images li:hover .about {
+  opacity: 100%;
+}
+
+.about {
+  position: absolute;
+  display: block;
+  opacity: 0%;
+  top: 54%;
+  right: 11%;
+  font-size: 40px;
+  color: #1b1b1b;
+  transition: 0.3s;
+  background-color: #ca209d;
+  border-radius: 5px;
+  padding: 7px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  pointer-events: none;
+}
+.worldcafe {
+  position: absolute;
+  display: block;
+  opacity: 0%;
+  top: 54%;
+  right: 53.5%;
+  font-size: 40px;
+  color: #1b1b1b;
+  transition: 0.3s;
+  background-color: #ca209d;
+  border-radius: 5px;
+  padding: 7px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  pointer-events: none;
+}
+.images .world:hover .worldcafe {
+  opacity: 100%;
+}
+.lifestyle {
+  position: absolute;
+  display: block;
+  opacity: 0%;
+  top: 54%;
+  right: 32.5%;
+  font-size: 40px;
+  color: #1b1b1b;
+  transition: 0.3s;
+  background-color: #ca209d;
+  border-radius: 5px;
+  padding: 7px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  pointer-events: none;
+}
+.images .life:hover .lifestyle {
+  opacity: 100%;
+}
+.images .makeup:hover .cosmetics {
+  opacity: 100%;
+}
+.cosmetics {
+  position: absolute;
+  display: block;
+  opacity: 0%;
+  top: 54%;
+  right: 78.5%;
+  font-size: 40px;
+  color: #1b1b1b;
+  transition: 0.3s;
+  background-color: #ca209d;
+  border-radius: 5px;
+  padding: 7px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  pointer-events: none;
+}
+/* footer */
+.bottomstuff ul {
+  display: flex;
+  background-color: #1b1b1b;
+  border-top: 1px solid #ca209d;
+  justify-content: space-around;
+  margin-top: 45%;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bottomstuff ul li a {
+  color: #b7b7b7;
+  transition: 0.4s;
+}
+.bottomstuff ul li a:hover {
+  color: white;
+}
+
+#rights {
+  color: #b7b7b7;
+  padding-right: 25px;
+}
+#blog {
+  margin-right: 400px;
+}
+
+#copy {
+  color: #ca209d;
+}
+#jusworld {
+  color: #b7b7b7;
+  border-right: 2px solid #ca209d;
+  /* border-left: 2px solid #ca209d; */
+  padding-right: 5%;
+  /* padding-left: 70px; */
+}
+#jus {
+  display: block;
+  position: absolute;
+  left: 4%;
+  font-family: Great Vibes, serif;
+  font-size: 30px;
+  color: #1b1b1b;
+  user-select: none;
+}
+/* makeup page */
+.artistic {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.artistic::after {
+  content: "";
+  position: absolute;
+  border-right: 2px solid #ca209d;
+  top: 20%;
+  height: 150px;
+  margin-left: 40px;
+}
+.artistic img {
+  height: 250px;
+  border: 1px solid #ca209d;
+  border-radius: 2px;
+}
+.artistictext {
+  position: absolute;
+  top: 61%;
+  right: 25%;
+  margin-left: 400px;
+  font-family: Georgia, serif;
+  color: #e27eda;
+}
